@@ -1,0 +1,27 @@
+/*
+.road {
+    animation-name: move-road;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-play-state: paused;
+}
+
+.road:hover {
+    animation-play-state: running;
+}
+
+@keyframes move-road {
+    from {
+        transform: translateY(0);
+        transform-origin: center;
+    }
+    to {
+        transform: translateY(50px);
+        transform-origin: center;
+    }
+}
+*/

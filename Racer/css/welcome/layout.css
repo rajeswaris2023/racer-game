@@ -1,0 +1,35 @@
+body {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+}
+
+#track-selection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#players {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#car-selection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.player-car-selection-div {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.player-car-selection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.trackDiv, .car-div {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}

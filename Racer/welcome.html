@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+    <script src="scripts/welcome/common/constants.js" async type="text/javascript"></script>
+    <script src="scripts/welcome/initial/dataFetchInitiator.js" async type="text/javascript"></script>
+    <script src="scripts/welcome/initial/initializer.js" async type="text/javascript"></script>
+    <script src="scripts/welcome/worker/tracksFetcher.js" async type="text/javascript"></script>
+    <script src="scripts/welcome/worker/carsFetcher.js" async type="text/javascript"></script>
+	
+    <script blocking="render" src="scripts/welcome/retrieve/trackOptionsRetriever.js" async type="text/javascript"></script>
+    <script blocking="render" src="scripts/welcome/retrieve/carOptionsRetriever.js" async type="text/javascript"></script>
+	
+    <script src="scripts/welcome/ui/trackOptionsCreator.js" async type="text/javascript"></script>
+    <script src="scripts/welcome/ui/carOptionsCreator.js" async type="text/javascript"></script>
+    <script src="scripts/welcome/interaction/selection/selection.js" async type="text/javascript"></script>
+    <script src="scripts/welcome/interaction/selection/addCarSelectionListener.js" async type="text/javascript"></script>
+    <script src="scripts/welcome/interaction/selection/addTrackSelectionListener.js" async type="text/javascript"></script>
+    <script src="scripts/welcome/interaction/submit/handler.js" async type="text/javascript"></script>
+    <script src="scripts/welcome/interaction/submit/raceCreator.js" async type="text/javascript"></script>
+    <script src="scripts/welcome/interaction/validation/track.js" async type="text/javascript"></script>
+	<script src="scripts/welcome/interaction/validation/player.js" async type="text/javascript"></script>
+    <script src="scripts/welcome/interaction/validation/car.js" async type="text/javascript"></script>
+    <script src="scripts/common/htmlElementCreator.js" async type="text/javascript"></script>
+
+    <link href="./css/common/fonts.css" rel="preload" as="style"/>
+    <link href="./css/welcome/css-dist/position.min.css" rel="preload" as="style"/>
+    <link href="./css/welcome/css-dist/dimension.min.css" rel="preload" as="style"/>
+    <link href="./css/welcome/css-dist/layout.min.css" rel="preload" as="style"/>
+    <link href="./css/welcome/css-dist/appearance.min.css" rel="preload" as="style"/>
+    <link href="./css/welcome/css-dist/text.min.css" rel="preload" as="style"/>
+
+    <link href="./css/common/fonts.css" rel="stylesheet" />
+    <link href="./css/welcome/css-dist/position.min.css" rel="stylesheet" />
+    <link href="./css/welcome/css-dist/dimension.min.css" rel="stylesheet" />
+    <link href="./css/welcome/css-dist/layout.min.css" rel="stylesheet" />
+    <link href="./css/welcome/css-dist/appearance.min.css" rel="stylesheet" />
+    <link href="./css/welcome/css-dist/text.min.css" rel="stylesheet" />
+</head>
+<body>
+<div id="container">
+    <div id="welcome"><span>Welcome to Racer!</span></div>
+    <div id="track-selection">
+    </div>
+    <div id="players">
+        <div id="player-1" class="player">
+            <input type="text" id="player-1-name" class="player-name" placeholder="Player 1 name" />
+        </div>
+        <div id="player-2" class="player">
+            <input type="text" id="player-2-name" class="player-name" placeholder="Player 2 name" />
+        </div>
+    </div>
+    <div id="car-selection">
+        <div id="player-1-car-selection-div" class="player-car-selection-div">
+            <div class="player-select-car"><span>Select car for Player 1</span></div>
+            <div id="player-1-car-selection" class="player-car-selection"></div>
+        </div>
+        <div id="player-2-car-selection-div" class="player-car-selection-div">
+            <div class="player-select-car"><span>Select car for Player 2</span></div>
+            <div id="player-2-car-selection" class="player-car-selection"></div>
+        </div>
+    </div>
+    <div id="error">
+        <span id="error-message"></span>
+    </div>
+    <div id="submit">
+        <a href="main.html" id="submit-link"><button id="submit-button" value="Start Race">Start Race</button></a>
+    </div>
+</div>
+</body>
+</html>

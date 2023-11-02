@@ -1,0 +1,14 @@
+#results-table-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#heading {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#heading-row, .result-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

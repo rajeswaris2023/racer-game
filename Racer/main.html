@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Racer</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+    <link href="./css/racing/css-dist/position.min.css" rel="preload" as="style"/>
+    <link href="./css/racing/css-dist/dimension.min.css" rel="preload" as="style"/>
+    <link href="./css/racing/css-dist/layout.min.css" rel="preload" as="style"/>
+    <link href="./css/racing/background.css" rel="preload" as="style"/>
+    <link href="./css/racing/css-dist/appearance.min.css" rel="preload" as="style"/>
+    <link href="./css/racing/css-dist/animation.min.css" rel="preload" as="style"/>
+    <link href="./css/racing/css-dist/text.min.css" rel="preload" as="style"/>
+
+    <link href="css/racing/css-dist/position.min.css" rel="stylesheet" />
+    <link href="css/racing/css-dist/dimension.min.css" rel="stylesheet" />
+	<link href="css/racing/css-dist/layout.min.css" rel="stylesheet" />
+    <link href="css/racing/background.css" rel="stylesheet" />
+    <link href="css/racing/css-dist/appearance.min.css" rel="stylesheet" />
+    <link href="css/racing/css-dist/animation.min.css" rel="stylesheet" />
+    <link href="css/racing/css-dist/text.min.css" rel="stylesheet" />
+
+    <script src="scripts/racing/initial/initializer.js" async type="text/javascript"></script>
+    <script src="scripts/racing/initial/carAdder.js" async type="text/javascript"></script>
+    <script src="scripts/racing/worker/commentGenerator.js" async type="text/javascript"></script>
+    <script src="scripts/racing/worker/updater.js" async type="text/javascript"></script>
+	<script src="scripts/racing/worker/backoff.js" async type="text/javascript"></script>
+	<script src="scripts/racing/worker/startRace.js" async type="text/javascript"></script>
+	<script src="scripts/racing/worker/results.js" async type="text/javascript"></script>
+    <script src="scripts/racing/selection/car.js" async type="text/javascript"></script>
+    <script src="scripts/racing/track/track.js" async type="text/javascript"></script>
+    <script src="scripts/racing/interaction/interactionHandler.js" async type="text/javascript"></script>
+    <script src="scripts/racing/interaction/backoffHandler.js" async type="text/javascript"></script>
+    <script src="scripts/racing/interaction/updateHandler.js" async type="text/javascript"></script>
+    <script src="scripts/racing/interaction/handlerHelper.js" async type="text/javascript"></script>
+    <script src="scripts/racing/interaction/gameOver.js" async type="text/javascript"></script>
+    <script src="scripts/racing/interaction/commentHandler.js" async type="text/javascript"></script>
+    <script src="scripts/racing/interaction/resultsFetcher.js" async type="text/javascript"></script>
+	<script src="scripts/racing/interaction/gameOverHandler.js" async type="text/javascript"></script>
+	<script src="scripts/racing/interaction/startRaceHandler.js" async type="text/javascript"></script>
+    <script src="scripts/racing/detector/preCollisionDetector.js" async type="text/javascript"></script>
+    <script src="scripts/racing/detector/roadBoundaryDetector.js" async type="text/javascript"></script>
+    <script src="scripts/racing/common/htmlElementHelper.js" async type="text/javascript"></script>
+    <script src="scripts/racing/common/constants.js" async type="text/javascript"></script>
+    <script src="scripts/racing/barrier/barrierEvaluator.js" async type="text/javascript"></script>
+    <script src="scripts/racing/animation/animator.js" async type="text/javascript"></script>
+    <script src="scripts/racing/animation/finishLineCreator.js" async type="text/javascript"></script>
+    <script src="scripts/racing/animation/startLineRemover.js" async type="text/javascript"></script>
+    <script src="scripts/common/htmlElementCreator.js" async type="text/javascript"></script>
+</head>
+<body>
+<div id="comment-area">
+    <div id="comment">
+        <span></span>
+    </div>
+</div>
+<div id="game-area">
+    <div id="screen-1" class="screen">
+        <div id="road-1" class="road">
+        </div>
+        <div id="start-1" class="start">
+            <img src="./images/start_finish.jpg" alt="start line image not loading" />
+        </div>
+        <div id="finish-1" class="finish" hidden>
+            <img src="./images/start_finish.jpg" alt="start line image not loading" />
+        </div>
+        <div id="car-1" class="car">
+        </div>
+        <div id="screen-1-car-2" class="car">
+        </div>
+    </div>
+    <div id="screen-2" class="screen">
+        <div id="road-2" class="road">
+        </div>
+        <div id="start-2" class="start">
+            <img src="./images/start_finish.jpg" alt="start line image not loading" />
+        </div>
+        <div id="finish-2" class="finish" hidden>
+            <img src="./images/start_finish.jpg" alt="start line image not loading" />
+        </div>
+        <div id="car-2" class="car">
+        </div>
+        <div id="screen-2-car-1" class="car">
+        </div>
+    </div>
+    <div id="start-race">
+        <input type="button" id="start-race-button" value="Start Race" />
+    </div>
+    <div id="game-over-screen" hidden>
+        <div id="win-cup">
+            <img src="./images/win_cup.png" alt="win cup cannot be loaded" />
+        </div>
+        <div id="game-over"><span>Game Over!!!</span></div>
+        <div id="result"><span id="result-text"></span></div>
+        <div id="results-table-link"><input id="results-table-button" type="button" value="Results Table" /></div>
+    </div>
+    <div id="results-screen" hidden>
+        <div id="results-table-container">
+            <div id="heading">
+                <div id="heading-row">
+                    <div id="name" class="result-heading-text">Player Name</div>
+                    <div id="time" class="result-heading-text">Time Taken</div>
+                    <div id="place" class="result-heading-text">Place</div>
+                    <div id="race-count" class="result-heading-text">Race Count</div>
+                </div>
+                <div id="line"><hr /></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

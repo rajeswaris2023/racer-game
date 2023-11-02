@@ -1,0 +1,10 @@
+body {
+    background-color: lightslategray;
+}
+
+#submit-button {
+    background-color: crimson;
+    border-width: 2px;
+    border-color: crimson;
+    border-radius: 10px;
+}

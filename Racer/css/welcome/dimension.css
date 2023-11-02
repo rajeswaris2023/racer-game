@@ -1,0 +1,106 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#welcome {
+    width: 700px;
+    height: 90px;
+}
+
+#track-selection {
+    width: 1000px;
+    height: 210px;
+}
+
+#players {
+    width: 1000px;
+    height: 30px;
+}
+
+.player, .player-name {
+    width: 200px;
+    height: 20px;
+}
+
+.track-div, .track-button-div, .track-button {
+    width: 200px;
+    height: 180px;
+}
+
+.track-button > img {
+    width: 180px;
+    height: 160px;
+}
+
+.track-info-div {
+    width: 200px;
+    height: 50px;
+}
+
+#car-selection {
+    width: 1300px;
+    height: 250px;
+}
+
+.player-car-selection-div {
+    width: 650px;
+    height: 250px;
+}
+
+.player-select-car {
+    width: 550px;
+    height: 25px;
+}
+
+.player-car-selection {
+    width: 550px;
+    height: 200px;
+}
+
+.car-div, .car-button-div, .car-button {
+    width: 150px;
+    height: 150px;
+}
+
+.car-button > img {
+    width: 75px;
+    height: 150px;
+}
+
+.car-info-div {
+    width: 108px;
+    height: 50px;
+}
+
+/*
+.car-div, .car-button-div, .car-button {
+    width: 200px;
+    height: 200px;
+}
+
+.car-button > img {
+    width: 100px;
+    height: 200px;
+}
+
+.car-info-div {
+    width: 250px;
+    height: 50px;
+}
+*/
+
+#error {
+    width: 400px;
+    height: 30px;
+}
+
+#submit {
+    width: 150px;
+    height: 100px;
+}
+
+#submit-button {
+    width: 150px;
+    height: 50px;
+}

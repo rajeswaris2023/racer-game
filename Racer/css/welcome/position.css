@@ -1,0 +1,55 @@
+#welcome {
+    margin-left: 450px;
+}
+
+#track-selection {
+    margin: 10px 0 0 50px;
+}
+
+#players {
+    margin: 20px 0 0 300px;
+}
+
+.player {
+    margin-left: 50px;
+}
+
+.track-div {
+    margin-left: 300px;
+}
+
+.track-button > img{
+    margin: 5px 5px 5px 5px;
+}
+
+.track-info-div {
+    margin-top: 10px;
+}
+
+#car-selection {
+    margin: 10px 0 0 20px;
+}
+
+.player-car-selection-div {
+    margin-left: 50px;
+}
+
+.player-select-car {
+    margin: 10px 0 0 50px;
+}
+
+.car-div {
+    margin-left: 50px;
+}
+
+.car-info-div {
+    margin-top: 10px;
+}
+
+#error {
+    margin: 10px 0 0 650px;
+}
+
+#submit {
+    margin-left: 680px;
+}

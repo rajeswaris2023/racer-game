@@ -1,0 +1,35 @@
+#comment > span {
+    font-family: "Arquitecta W00 Regular", sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+#start-race > input {
+    font-family: "Arquitecta W00 Regular", sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+#results-table-link > input {
+    font-family: "Arquitecta W00 Regular", sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.result-heading-text, .result-row-text {
+    font-family: "Arquitecta W00 Regular", sans-serif;
+    font-size: 20px;
+    color: firebrick;
+}
+
+#game-over > span {
+    font-family: "Arquitecta W00 Regular", sans-serif;
+    font-size: 70px;
+    color: dodgerblue;
+}
+
+#result-text {
+    font-family: "Arquitecta W00 Regular", sans-serif;
+    font-size: 50px;
+    color: firebrick;
+}

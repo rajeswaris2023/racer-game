@@ -1,0 +1,1 @@
+body{display:grid;grid-template-rows:1fr 1fr 1fr 1fr;overflow:hidden}#car-selection,#players,#track-selection{display:grid;grid-template-columns:1fr 1fr}.player-car-selection-div{display:grid;grid-template-rows:1fr 1fr}.player-car-selection{display:grid;grid-template-columns:1fr 1fr 1fr}.car-div,.trackDiv{display:grid;grid-template-rows:1fr 1fr}

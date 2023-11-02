@@ -1,0 +1,35 @@
+body {
+    background-color: lightslategray;
+}
+
+/*
+#comment-area {
+    background-color: darkkhaki;
+}
+*/
+
+#game-area {
+    background-color: blanchedalmond;
+}
+
+#start-race > input {
+    background-color: lightcoral;
+}
+
+.road {
+    background-image: url('../../svg/road.svg');
+    background-repeat: repeat-y;
+}
+
+#game-over-screen {
+    background-image: url('../../images/confetti.jpg');
+    background-repeat: repeat;
+}
+
+#results-table-link > input {
+    background-color: darksalmon;
+}
+
+#results-screen {
+    background-image: url('../../images/result.jpg');
+}

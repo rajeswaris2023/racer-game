@@ -1,0 +1,36 @@
+#welcome > span {
+    font-family: 'Triump Rg Blur W00_02', serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.track-info, .car-info {
+    font-family: "Arquitecta W00 Regular", sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.player-name {
+    font-family: "Arquitecta W00 Regular", sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.player-select-car > span {
+    font-family: "Arquitecta W00 Regular", sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+#error-message {
+    font-family: "Arquitecta W00 Regular", sans-serif;
+    font-size: 22px;
+    color: red;
+}
+
+#submit-button {
+    font-family: "Arquitecta W00 Regular", sans-serif;
+    font-size: 20px;
+    color: white;
+}

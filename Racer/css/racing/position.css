@@ -1,0 +1,101 @@
+#comment-area {
+    position: absolute;
+    top: 5px;
+    left: 400px;
+}
+
+#comment {
+    position: absolute;
+    left: 50px;
+}
+
+#game-area {
+    position: absolute;
+    left: 80px;
+    top: 45px;
+}
+
+#start-race {
+    position: absolute;
+    left: 550px;
+    top: 300px;
+    z-index: 700;
+}
+
+.screen {
+    position: absolute;
+}
+
+#screen-2 {
+    left: 750px;
+}
+
+.road {
+    z-index: 100;
+}
+
+.start {
+    display: block;
+    position: absolute;
+    top: 600px;
+    left: 10px;
+    z-index: 400;
+}
+
+.start > img {
+    display: block;
+}
+
+.car > img {
+    display: block;
+}
+
+#car-1, #screen-2-car-1 {
+    left: 30px;
+}
+
+#car-2, #screen-1-car-2 {
+    left: 320px;
+}
+
+#car-1, #screen-1-car-2, #car-2, #screen-2-car-1 {
+    display: block;
+    position: absolute;
+    top: 600px;
+    z-index: 500;
+}
+
+#game-over-screen, #results-screen {
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    z-index: 600;
+}
+
+#win-cup {
+    position: absolute;
+}
+
+#game-over {
+    position: absolute;
+    top: 100px;
+    left: 320px;
+}
+
+#result {
+    position: absolute;
+    top: 200px;
+    left: 320px;
+}
+
+#results-table-link {
+    position: absolute;
+    top: 300px;
+    left: 450px;
+}
+
+#results-table-container {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

@@ -1,0 +1,101 @@
+body {
+    width: 1500px;
+    height: 720px;
+    overflow: hidden;
+}
+
+#comment-area, #comment, #comment > span {
+    width: 700px;
+    height: 35px;
+}
+
+#game-area {
+    width: 1350px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.screen {
+    width: 600px;
+    height: 700px;
+}
+
+.road {
+    width: 600px;
+    height: 700px;
+    z-index: 100;
+}
+
+.start, .finish {
+    width: 580px;
+    height: 100px;
+}
+
+.start > img, .finish > img {
+    width: 580px;
+    height: 100px;
+}
+
+.car {
+    width: 100px;
+    height: 180px;
+}
+
+.car > img {
+    width: 100px;
+    height: 180px;
+}
+
+#start-race {
+    width: 250px;
+    height: 100px;
+}
+
+#start-race > input {
+    width: 250px;
+    height: 100px;
+}
+
+#game-over-screen {
+    width: 800px;
+    height: 500px;
+}
+
+#win-cup {
+    width: 300px;
+    height: 350px;
+    z-index: 700;
+}
+
+#win-cup > img {
+    width: 300px;
+    height: 350px;
+    z-index: 700;
+}
+
+#game-over {
+    width: 500px;
+    height: 100px;
+}
+
+#result {
+    width: 500px;
+    height: 60px;
+}
+
+#results-table-link, #results-table-link > input {
+    width: 200px;
+    height: 50px;
+}
+
+#results-screen {
+    width: 800px;
+    height: 500px;
+    background-size: 800px 500px;
+}
+
+#heading, .result-row {
+    width: 700px;
+    height: 100px;
+}
